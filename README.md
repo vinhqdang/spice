@@ -1,0 +1,2 @@
+# spice
+For SPiCe contest
