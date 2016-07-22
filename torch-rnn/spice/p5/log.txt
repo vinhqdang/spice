@@ -1,0 +1,20 @@
+Parameters used: ['-p', '5', '-d', 'public', '-t', 'all', '--batch_size=50']
+Time 2016-05-21 18:50
+Score = 0.64788343439851
+-------------------------------
+Parameters used: ['-p', '5', '-d', 'public', '-t', 'all', '--batch_size=100']
+Time 2016-05-21 20:03
+Score = 0.65239750893376
+-------------------------------
+Parameters used: ['-p', '5', '--rnn_size=512', '--seq_len=5', '--num_layers=4', '--batch_size=200']
+Time 2016-05-23 13:33
+Score = 0.64526270824768
+-------------------------------
+Parameters used: ['-p', '5', '--rnn_size=512', '--seq_len=10', '--num_layers=4', '--batch_size=200']
+Time 2016-05-23 16:17
+Score = 0.64824900727445
+-------------------------------
+Parameters used: ['-p', '5', '--rnn_size=512', '--seq_len=25', '--batch_size=25', '--num_layers=3']
+Time 2016-06-02 09:29
+Score = 0.75258465149155
+-------------------------------

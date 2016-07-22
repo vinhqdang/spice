@@ -1,0 +1,4 @@
+Parameters used: ['-p', '10', '-d', 'public', '-t', 'all', '--rnn_size=512', '--num_layers=3', '--batch_size=10', '--seq_len=10']
+Time 2016-07-04 15:46
+Score = 0.51411497784148
+-------------------------------

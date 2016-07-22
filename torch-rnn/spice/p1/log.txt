@@ -1,0 +1,40 @@
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=4', '--seq_len=50', '--batch_size=100']
+Time 2016-05-20 20:08
+Score = 0.89362486342192
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=4', '--seq_len=100', '--batch_size=100']
+Time 2016-05-20 21:34
+Score = 0.89893621663451
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--seq_len=50', '--batch_size=50', '--rnn_size=512']
+Time 2016-05-21 17:09
+Score = 0.88945162125826
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--seq_len=50', '--batch_size=50', '--rnn_size=512', '--num_layers=6']
+Time 2016-05-21 19:43
+Score = 0.88156372482181
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--rnn_size=512', '--seq_len=5', '--batch_size=200', '--num_layers=4']
+Time 2016-05-23 12:30
+Score = 0.88136840293407
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--rnn_size=512', '--seq_len=10', '--batch_size=200', '--num_layers=4']
+Time 2016-05-23 13:54
+Score = 0.88028223053813
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--rnn_size=512', '--seq_len=9', '--batch_size=200', '--num_layers=4']
+Time 2016-05-23 15:29
+Score = 0.87713432295322
+-------------------------------
+Parameters used: ['-p', '1', '-d', 'public', '-t', 'all', '--rnn_size=512', '--seq_len=100', '--batch_size=200', '--num_layers=4']
+Time 2016-05-23 16:52
+Score = 0.89740201116204
+-------------------------------
+Parameters used: ['-p', '1', '--seq_len=12', '--batch_size=200', '--num_layers=4', '--rnn_size=1024']
+Time 2016-06-02 15:55
+Score = 1.
+-------------------------------
+Parameters used: ['-p', '1', '--seq_len=12', '--batch_size=200', '--num_layers=4', '--rnn_size=1024', '-t', 'test']
+Time 2016-06-02 16:49
+Score = 1.
+-------------------------------

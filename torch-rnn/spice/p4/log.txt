@@ -1,0 +1,204 @@
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'test']
+Time 2016-05-20 15:26
+Score = 0.41304456757352
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=4', '--seq_len=3', '--batch_size=20']
+Time 2016-05-20 16:32
+Score = 0.50820958199986
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=4', '--seq_len=50', '--batch_size=20']
+Time 2016-05-20 19:00
+Score = 0.47627089877817
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=4', '--seq_len=5', '--batch_size=20']
+Time 2016-05-20 19:13
+Score = 0.47542192583734
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=4', '--seq_len=4', '--batch_size=20']
+Time 2016-05-20 19:28
+Score = 0.49763684775581
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=5', '--seq_len=3', '--batch_size=20']
+Time 2016-05-20 19:59
+Score = 0.31720415008737
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=6', '--seq_len=3', '--batch_size=20']
+Time 2016-05-20 20:48
+Score = 0.30902428080373
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--rnn_size=512', '--max_epochs=10', '--num_layers=50', '--seq_len=3', '--batch_size=20']
+Time 2016-05-20 22:23
+Score = 0.29842515732037
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all']
+Time 2016-05-21 16:18
+Score = 0.50394030708202
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=100', '--batch_size=50', '--num_layers=3']
+Time 2016-05-21 16:39
+Score = 0.43160121840111
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=50', '--batch_size=50', '--num_layers=3']
+Time 2016-05-21 16:51
+Score = 0.45815945751367
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=100', '--batch_size=50', '--num_layers=3']
+Time 2016-05-21 17:53
+Score = 0.45000598707142
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=5', '--batch_size=100', '--num_layers=3']
+Time 2016-05-21 18:29
+Score = 0.51297260661495
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=5', '--batch_size=200', '--num_layers=3']
+Time 2016-05-21 18:36
+Score = 0.51456348590035
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=5', '--batch_size=200', '--num_layers=4']
+Time 2016-05-21 18:46
+Score = 0.49124774384626
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=100', '--batch_size=100', '--num_layers=4']
+Time 2016-05-21 19:08
+Score = 0.49124774384626
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=100', '--batch_size=100', '--num_layers=5']
+Time 2016-05-21 19:18
+Score = 0.49124774384626
+-------------------------------
+Parameters used: ['-p', '4', '-d', 'public', '-t', 'all', '--seq_len=10', '--batch_size=200', '--num_layers=5']
+Time 2016-05-21 19:25
+Score = 0.36180954550039
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=4', '--seq_len=5', '--batch_size=200']
+Time 2016-05-23 14:24
+Score = 0.49473187283558
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=4', '--seq_len=6', '--batch_size=200']
+Time 2016-05-23 14:35
+Score = 0.4936142119574
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=4', '--seq_len=4', '--batch_size=200']
+Time 2016-05-23 14:49
+Score = 0.50432354546486
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=4', '--seq_len=3', '--batch_size=200']
+Time 2016-05-23 15:11
+Score = 0.49317549308513
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=4', '--seq_len=7', '--batch_size=200']
+Time 2016-05-23 15:27
+Score = 0.50402122166227
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--num_layers=5', '--seq_len=8', '--batch_size=200']
+Time 2016-05-23 15:40
+Score = 0.34969247120587
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--num_layers=4', '--seq_len=8', '--batch_size=200']
+Time 2016-05-23 16:15
+Score = 0.34969247120587
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=5', '--seq_len=8', '--batch_size=200']
+Time 2016-05-23 16:31
+Score = 0.33311825715762
+-------------------------------
+Parameters used: ['-p', '4', '-sl', '3', '-bs', '150', '--num_layers=3', '--rnn_size=512']
+Time 2016-05-24 09:36
+Score = 0.51592895484226
+-------------------------------
+Parameters used: ['-p', '4', '-sl', '3', '-bs', '250', '--num_layers=3', '--rnn_size=512']
+Time 2016-05-24 11:11
+Score = 0.51130936609551
+-------------------------------
+Parameters used: ['-p', '4', '-sl', '3', '-bs', '250', '--num_layers=4', '--rnn_size=512']
+Time 2016-05-24 12:27
+Score = 0.5225935356821
+-------------------------------
+Parameters used: ['-p', '4', '-sl', '100', '-bs', '100', '--num_layers=4', '--rnn_size=512']
+Time 2016-05-24 13:46
+Score = 0.53026170602297
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--seq_len=25', '--batch_size=25', '--num_layers=5']
+Time 2016-06-01 15:40
+Score = 0.42069690192447
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--seq_len=25', '--batch_size=25', '--num_layers=4']
+Time 2016-06-01 15:52
+Score = 0.42285113630288
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--seq_len=50', '--batch_size=25', '--num_layers=4']
+Time 2016-06-01 16:05
+Score = 0.46486406745439
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--seq_len=75', '--batch_size=25', '--num_layers=4', '-t', 'test']
+Time 2016-06-01 16:19
+Score = 0.44058886556861
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--seq_len=200', '--batch_size=25', '--num_layers=4']
+Time 2016-06-01 16:29
+Score = 0.33205318415069
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=3', '--batch_size=100', '--num_layers=3']
+Time 2016-06-02 11:21
+Score = 0.52338723595289
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=3', '--batch_size=100', '--num_layers=4']
+Time 2016-06-02 11:40
+Score = 0.5047379057197
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=30', '--batch_size=100', '--num_layers=4']
+Time 2016-06-02 11:54
+Score = 0.30742780951893
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=5', '--batch_size=50', '--num_layers=4']
+Time 2016-06-02 12:21
+Score = 0.49392795929297
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=5', '--batch_size=5', '--num_layers=4']
+Time 2016-06-02 13:22
+Score = 0.29485283011102
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=20', '--batch_size=5', '--num_layers=4']
+Time 2016-06-02 14:20
+Score = 0.30525507877536
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=1024', '--seq_len=200', '--batch_size=5', '--num_layers=4']
+Time 2016-06-02 15:59
+Score = 0.47099469669841
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=250', '--batch_size=5']
+Time 2016-06-03 18:20
+Score = 0.48280653998973
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=500', '--batch_size=5', '--max_epochs=20']
+Time 2016-06-03 18:51
+Score = 0.45769050948441
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=50', '--batch_size=5', '--max_epochs=20']
+Time 2016-06-03 19:17
+Score = 0.45915879906818
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=3', '--batch_size=100', '--max_epochs=20']
+Time 2016-06-03 19:24
+Score = 0.52663756345205
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=3', '--batch_size=100', '--max_epochs=30']
+Time 2016-06-03 19:30
+Score = 0.52539986718625
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=2', '--batch_size=100', '--max_epochs=30']
+Time 2016-06-03 19:38
+Score = 0.54362538082396
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=2', '--batch_size=120', '--max_epochs=30']
+Time 2016-06-03 19:45
+Score = 0.5280710026064
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=10', '--batch_size=10']
+Time 2016-06-06 12:22
+Score = 0.51056769398604
+-------------------------------
+Parameters used: ['-p', '4', '--rnn_size=512', '--num_layers=3', '--seq_len=10', '--batch_size=100']
+Time 2016-06-06 13:14
+Score = 0.52029355695063
+-------------------------------

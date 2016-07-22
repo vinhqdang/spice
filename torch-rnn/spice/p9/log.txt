@@ -1,0 +1,16 @@
+Parameters used: ['-p', '9', '--rnn_size=512', '--num_layers=3', '--seq_len=10', '--batch_size=10']
+Time 2016-06-06 13:04
+Score = 0.73029621390253
+-------------------------------
+Parameters used: ['-p', '9', '--rnn_size=512', '--num_layers=3', '--seq_len=10', '--batch_size=100']
+Time 2016-06-06 13:43
+Score = 0.82799459840171
+-------------------------------
+Parameters used: ['-p', '9', '--rnn_size=512', '--num_layers=3', '--seq_len=10', '--batch_size=200']
+Time 2016-06-06 14:36
+Score = 0.82201068982072
+-------------------------------
+Parameters used: ['-p', '9', '--rnn_size=512', '--num_layers=3', '--seq_len=10', '--batch_size=5']
+Time 2016-06-06 16:02
+Score = 0.6814501787398
+-------------------------------
