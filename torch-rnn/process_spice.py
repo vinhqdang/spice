@@ -22,10 +22,13 @@ import subprocess
 import random, string  
 from collections import Counter
 import time
+import codecs
 
 # we will convert the input in numeric to character
 # reserve 'a' for termination character, i.e. to predict the prefix will end
 char_list = string.ascii_letters[1:] + "0123456789" + "~`!@#$%^&*()-=_+" + "[]\{}|;':\",./<>?"
+for i in range(1000,8000):
+   char_list = char_list + unichr(i)
 terminate_char = 'a'
 
 # SpiCe contest requires prediction for next most 5 probable symbols
@@ -300,7 +303,8 @@ def submit (first_prefix, output):
            '&problem=' + str(problem_number) + '&submission=' + algorithm_name + '&'
     url = url_base + 'prefix=' + str (len(first_prefix)) + '%20'+ formatString(convert_char_to_num(first_prefix)) + '&prefix_number=1' + '&ranking=' +\
           output
-
+    if problem_number == 7:
+        url = url_base + 'prefix=' + "21" + '%20'+ formatString(convert_char_to_num(first_prefix)) + '&prefix_number=1' + '&ranking=' + output
     # print (url)
     print("Prefix number: " + str(1) + " Prefix: " + str(convert_char_to_num(first_prefix)) + "\n" + " Ranking: " + output.replace("%20"," "))
     print ("-------------")
@@ -341,11 +345,16 @@ def submit (first_prefix, output):
         prefix = prefix[1:]
 
         prefix = list (int (x) for x in prefix)
+
+        print ("Problem:" + str(problem_number))
+        print ("Prefix number: " + str(prefix_number) + "/" + str (TEST_MAX_LEN))
+        print ("Prefix: " + str(prefix))
+	
         
         # Get the ranking
         ranking = predict(convert_num_to_char(prefix))
         
-        print("Problem: " + str (problem_number) + "Prefix number: " + str(prefix_number) + "/" + str (TEST_MAX_LEN) + " Prefix: " + str (prefix) + "\n" + " Ranking: " + ranking.replace("%20"," "))
+        print(" Ranking: " + ranking.replace("%20"," "))
         
         # Format the ranking
         ranking = formatString(ranking)

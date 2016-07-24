@@ -7,6 +7,7 @@ import sys
 import getopt
 import string
 import os
+import codecs
 
 directory_base = "./"
 
@@ -43,6 +44,8 @@ os.system ("rm " + directory_base + problem_dir + "/*.json")
 # we will convert the input in numeric to character
 # reserve 'a' for termination character, i.e. to predict the prefix will end
 char_list = string.ascii_letters[1:] + "0123456789" + "~`!@#$%^&*()-=_+" + "[]\{}|;':\",./<>?"
+for i in range (1000,8000):
+   char_list = char_list + unichr(i)
 terminate_char = 'a'
 
 # update 20 - May - 2016 on problem 6
@@ -66,7 +69,7 @@ def conv_num_to_char (string_in):
     return newline
 
 with open (train_filename) as f:
-    f_out = open (train_filename + ".out", "w")
+    f_out = codecs.open (train_filename + ".out", "w","utf-8")
     lines = f.readlines()
 
     # start with 0
@@ -107,7 +110,7 @@ with open (train_filename) as f:
             myfile.write (str(item) + " ")
 
 with open (public_test_filename) as f:
-    f_out = open (public_test_filename + ".out", "w")
+    f_out = codecs.open (public_test_filename + ".out", "w", "utf-8")
     lines = f.readlines()
     for i in range (len (lines)):
         line = lines[i].split(' ', 1)[1]
@@ -122,7 +125,7 @@ with open (public_test_filename) as f:
 
 if problem_number != 0:
     with open (private_test_filename) as f:
-        f_out = open (private_test_filename + ".out", "w")
+        f_out = codecs.open (private_test_filename + ".out", "w", "utf-8")
         lines = f.readlines()
         for i in range (len (lines)):
             line = lines[i].split(' ', 1)[1]
